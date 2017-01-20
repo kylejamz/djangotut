@@ -1,19 +1,28 @@
+{% load staticfiles %}
 <html>
 
 <head>
     <title>Blorg of Man, Name of Raingus</title>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
 </head>
 
 <body>
+<div class="page-header">
+    <h1><a href="">Blorg of Man, Name of Raingus</a></h1>
+</div>
 
-    <h1>Les chunk it out!</h1>
+
+{% for post in posts %}
+<div class="post">
+    <h1><a href="">{{ post.title }}</a></h1>
+    <p>{{ post.text }}</p>
+    <p>published: {{ post.published_date|linebreaksbr }}</p>
+</div>
+{% endfor %}
 
 </body>
-<div> {% for post in posts %}
-            {{ posts }}
-      {% end for %}
-</div>
-<div> {{ posts }}</div>
-
 
 </html>

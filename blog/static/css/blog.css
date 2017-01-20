@@ -1,0 +1,19 @@
+.page-header {
+    background-color: #256651;
+    color: #99FFCC;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+h1 a {
+    color: #256651;
+    font-family: 'Amatic SC', cursive;
+    }
+
+p {
+    font-family: 'Pacifico', cursive;
+}
+
+.post {
+    padding-left: 40px;
+}
