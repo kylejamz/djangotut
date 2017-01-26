@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9293854a-bda5-4c74-b0a9-ebb925aa4b8e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/Templates/Blog/post_detail.html" afterPath="$PROJECT_DIR$/blog/Templates/Blog/post_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/Templates/Blog/post_edit.html" afterPath="$PROJECT_DIR$/blog/Templates/Blog/post_edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/Templates/Blog/post_list.html" afterPath="$PROJECT_DIR$/blog/Templates/Blog/post_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/settings.py" afterPath="$PROJECT_DIR$/mysite/settings.py" />
-    </list>
+    <list default="true" id="9293854a-bda5-4c74-b0a9-ebb925aa4b8e" name="Default" comment="" />
     <ignored path="djangogirlstut.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
